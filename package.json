@@ -1,0 +1,26 @@
+{
+  "name": "graphql-superheroes",
+  "version": "1.0.0",
+  "description": "Graphql server that interacts with external API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivekAlhat/graphql-superheroes.git"
+  },
+  "author": "Vivek Alhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivekAlhat/graphql-superheroes/issues"
+  },
+  "homepage": "https://github.com/VivekAlhat/graphql-superheroes#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.7.0",
+    "node-fetch": "^2.6.1"
+  }
+}
